@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="icon" href="./image/7188bfc9f05e2fd27306e39ffb98b96b.jpg">
+    <style>
+        table {
+            width: 1000px;
+            height: 250px;
+            margin: 0 auto;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: double rgb(41, 22, 22);
+        }
+        .imag {
+            display: inline;
+        }
+        main {
+            background-color: antiquewhite;
+            height: 100%;
+        }
+        footer {
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img src="./image/0300c6zm-7eda-378x191.jpg" alt="tabl" width="65" height="55">
+            <span style="margin-left: 15px;">Таблиця для ДЗ 5. Таблиці</span>
+        </div>
+    </header>
+    <main>
+        <h1 style="text-align: center; color: rgb(231, 7, 7);">Таблиця. Тест 1</h1>
+        <table class="tabl">
+            <thead">
+                <tr style="background-color: aqua;" >
+                    <th colspan="3">My First Table</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="background-color: rgb(253, 240, 59);">First Cell</td>
+                    <td style="background-color: rgb(57, 245, 50);">Second Cell</td>
+                    <td rowspan="3" style="background-color: rgb(247, 140, 0); text-align: center;"> 3 Cells merged together</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background-color: rgb(122, 212, 235); text-align: center;">2 cells merged into one</td>
+                </tr>
+                <tr>
+                    <td style="background-color: rgb(80, 80, 253);">1st cell <br> 3rd row </td>
+                    <td style="background-color: rgb(226, 127, 127);">2nd cell <br> 3rd row</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" style="background-color: rgb(159, 77, 236); text-align: center;">Do you like tables?</td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </main>
+    <footer>
+        <h3 style="text-align: center;">Вийшла ось така табличка)) <br> Дякую за увагу!!!</h3>
+    </footer>   
+</body>
+</html>
